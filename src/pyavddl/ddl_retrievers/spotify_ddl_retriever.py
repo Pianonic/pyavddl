@@ -1,7 +1,7 @@
 from spotdl import Spotdl
 import yt_dlp as youtube_dl
-from pyamddl.models.music_information import MusicInformation
-from pyamddl.config import get_spotify_instance
+from ..models.music_information import MusicInformation
+from ..config import get_spotify_instance
 
 async def get_streaming_url(spotify_url: str) -> MusicInformation:
     spotdl = get_spotify_instance()

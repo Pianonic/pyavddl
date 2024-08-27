@@ -1,6 +1,6 @@
 import yt_dlp
 
-from pyamddl.models.music_information import MusicInformation
+from ..models.music_information import MusicInformation
 
 async def get_streaming_url(url) -> MusicInformation:
     

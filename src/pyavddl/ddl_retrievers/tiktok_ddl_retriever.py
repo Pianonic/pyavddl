@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from pyamddl.models.music_information import MusicInformation
+from ..models.music_information import MusicInformation
 
 async def get_streaming_url(downloadURL):
     base_url = "https://tmate.cc"

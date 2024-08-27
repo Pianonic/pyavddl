@@ -2,8 +2,8 @@ import requests
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
 
-from pyamddl.enums.audio_content_type import AudioContentType
-from pyamddl.enums.platform import Platform
+from ..enums.audio_content_type import AudioContentType
+from ..enums.platform import Platform
 
 async def get_audio_content_type(query_url: str, platform: Platform) -> AudioContentType:
     if platform is Platform.YOUTUBE:

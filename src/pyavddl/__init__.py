@@ -1,7 +1,7 @@
 from typing import List
-from pyamddl.config import set_spotify_credentials
-from pyamddl.models.music_information import MusicInformation
-from pyamddl.platform_handlers import music_url_getter
+from .config import set_spotify_credentials
+from .models.music_information import MusicInformation
+from .platform_handlers import music_url_getter
 
 class PyamddlClient:
     def __init__(self, spotify_client_id: str, spotify_client_secret: str):

@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
-from pyamddl.config import get_spotify_credentials, get_spotify_instance
-from pyamddl.ddl_retrievers import spotify_ddl_retriever, tiktok_ddl_retriever, universal_ddl_retrieve
-from pyamddl.enums.audio_content_type import AudioContentType
-from pyamddl.enums.platform import Platform
-from pyamddl.models.music_information import MusicInformation
-from pyamddl.platform_handlers.audio_content_type_finder import get_audio_content_type
-from pyamddl.platform_handlers.music_platform_finder import find_platform
+from ..config import get_spotify_credentials, get_spotify_instance
+from ..ddl_retrievers import spotify_ddl_retriever, tiktok_ddl_retriever, universal_ddl_retrieve
+from ..enums.audio_content_type import AudioContentType
+from ..enums.platform import Platform
+from ..models.music_information import MusicInformation
+from ..platform_handlers.audio_content_type_finder import get_audio_content_type
+from ..platform_handlers.music_platform_finder import find_platform
 
 import yt_dlp
 import ytmusicapi

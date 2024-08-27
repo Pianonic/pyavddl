@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "setuptools", 
+    "yt_dlp",
+    "pytube",
+    "beautifulsoup4",
+    "spotdl",
+    "spotipy",
+    "ytmusicapi"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyavddl"
+version = "0.0.4"
+authors = [
+  { name="PianoNic" },
+]
+description = "A lightweight wrapper around yt-dlp that simplifies retrieving metadata and direct download links (DDL) with a single function call."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers" ,
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/PianoNic/pyavddl"
+Issues = "https://github.com/PianoNic/pyavddl/issues"

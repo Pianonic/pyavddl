@@ -1,5 +1,5 @@
 from urllib.parse import urlsplit
-from pyamddl.enums.platform import Platform
+from ..enums.platform import Platform
 
 
 async def find_platform(query_url: str) -> Platform:
