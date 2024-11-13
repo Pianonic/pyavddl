@@ -57,4 +57,4 @@ asyncio.run(get_song_info())
 
 ## License
 
-This project is licensed under the ... License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the CC-NC License. See the [LICENSE](LICENSE.md) file for details.
